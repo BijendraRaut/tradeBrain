@@ -68,7 +68,6 @@ a:hover{
 }
 
 
-
 @media screen and (max-width:1300px){
     .main{
         margin-left: 50px;
@@ -94,7 +93,7 @@ a:hover{
     }
 
     .navbar{
-        flex: 1;
+        flex: 2;
     }
 
     .main{
@@ -169,18 +168,15 @@ a:hover{
     margin-top: 0px !important;
 }
 
-.search-crypto{
+.search-stock{
     margin: 20px auto 30px auto;
     width: 250px;
 }
-.crypto-card-container{
+.stock-card-container{
     min-height: 65vh !important;
 }
-.crypto-card{
+.stock-card{
     min-width: 250px;
-}
-.crypto-card .crypto-image{
-    width:35px;
 }
 
 

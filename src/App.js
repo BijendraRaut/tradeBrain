@@ -1,6 +1,6 @@
 import { Route, Link, Routes } from "react-router-dom";
 import { Layout, Typography, Space } from "antd";
-import { Homepage, Navbar, Cryptocurrencies } from "./components";
+import { Homepage, Navbar, Watchlist } from "./components";
 import "./App.css";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           <div className="routes">
             <Routes>
               <Route path="/" element={<Homepage />} />
-              <Route path="/cryptocurrencies" element={<Cryptocurrencies />} />
+              <Route path="/watchlist" element={<Watchlist />} />
             </Routes>
           </div>
         </Layout>
